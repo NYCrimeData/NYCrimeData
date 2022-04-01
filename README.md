@@ -10,7 +10,7 @@ boroughs and/or investing on properties. As a team, we are looking to serve as t
 
 Team members:
 
-Amanda Ma
+Amanda Ma;
 Andrew Kwasnik;
 Chunmiao Chen;
 Laura Pacas;
