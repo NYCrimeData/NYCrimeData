@@ -8,7 +8,7 @@ anyone who is looking to move within New York boroughs, visitors looking to expl
 The team is looking to create a system that will provide users with information that they may be looking for before visiting different 
 boroughs and/or investing on properties. As a team, we are looking to serve as the bridge between data on crime rates and NYC Boroughs. 
 
-## Team members:
+### Team members:
 
 Amanda Ma;
 Andrew Kwasnik;
