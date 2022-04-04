@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>NYCrimeData.com </title> <!-- the title of the website -->
+ 
+ <link rel="shortcut icon" type="image/png" href="image/favicon-1.ico"> <!-- the favicon/logo for the website -->
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+h1 { 
+  display: block;
+  font-size: 3em; /* em relative to the font-size of the element */
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 25px;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h2 { 
+  display: block;
+  font-size: 2em; /* h2 tag is relative smaller than h1 tag */
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 25px;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h3 { 
+  display: block;
+  font-size: 1.5em;  /* h3 tag is relative smaller than h2 tag */
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 50px; /* margin 50px to meet the needs to align the text */
+  margin-right: 0;
+  font-weight: bold;
+}
+
+p {
+  margin-left: 50px; /* paragraph starts 25px from left, not close to the left margin */
+  margin-right: 50px; /* paragraph starts 25px from right, not close to the right margin */
+  font-size: 20px;
+}
+
+body {margin:0;} /*left margin is 0 */
+
+.navbar {
+  overflow: hidden;   
+  background-color: #333;    /* color tag for navigator */
+  position: fixed;      /* Navigator fiex position */
+  top: 0;       /* Nagivator on the top */
+  width: 100%;      /* Navigator filled the entire broswer width */
+}
+
+
+.navbar a {
+  float: right;    /* float to the right side */
+  display: block;  /* display as block */
+  color: #f2f2f2;  /* navigator bar color */
+  text-align: center;  /* text center align on the navigator bar */
+  padding: 12px 20px;  /* Navigator attribut has 12 pixel height and 20 pixel width */
+  text-decoration: none;  /* no text decoration */
+  font-size: 20px;        /* font size as 20 px */
+}
+
+.navbar a:hover {     /* action for hover on the navigator bar */
+  background: #ddd;   /* navigator bar background color change to */
+  color: green;       /* text color on navigator bar */
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling/scroll bar */
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+    
+<div class="navbar">
+    
+  <a href="#register">Sign Up</a>
+  <a href="#contact us">Contact Us</a>   
+  <a href="#about Us">About Us</a>
+  <a href="#home">Home</a>
+
+ 
+</div>
+    
+    
+<br><br><br>
+
+<h1 id="home">NYCrimeSpot</h1>
+
+<p>Welcome to Our Website</p>
+
+
+
+<img src="homepage.jpeg" alt="homepage" width="460" height="345">
+<br>
+
+
+<div class="main">
+<p> This is the search bar and result area <br></p>
+
+<p> The search bar function is currently under maintenance. We will make it alive as soon as possible </p>
+
+</div>
+
+<h2 id="about Us">About Us</h2> <!-- We link About us button to our current about us page -->
+
+<p>Data plays an important aspect for any business, project or just to have information available for anyone who may benefit from it. Living in a populated city we have deemed a crime database/system to be good to have information for New Yorkers, tourists, researchers, anyone who is looking to move within New York boroughs, visitors looking to explore NY and/or Property Investors.
+
+The team is looking to create a system that will provide users with information that they may be looking for before visiting different boroughs and/or investing on properties. As a team, we are looking to serve as the bridge between data on crime rates and NYC Boroughs.
+
+Team members:
+
+Amanda Ma; Andrew Kwasnik; Chunmiao Chen; Laura Pacas; Leandro Coimbra; Louise Jiang; Nidhi Sharma; Xinru Wang; Yanzhi Fan
+</p>
+
+<h3><a href="https://github.com/NYCrimeData/NYCrimeData" target="_blank">Our Team GitHub</a></h3>
+
+<br>
+
+<h2 id="contact us">Contact Us</h2> <!-- We link Contact us button to our current about us page -->
+<p>Our team can be reached out by the following contact methods <br>
+
+Github username: NYCrimeData <br>
+Email support: <a href="mailto: support@nycrimedata.com" target="_blank">support@nycrimedata.com</a>
+
+</p>
+
+<br><br><br><br><br> <!-- provide some spaces -->
+
+</body>
+
+</html>
+
+
+
