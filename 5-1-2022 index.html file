@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- we imported an external stylesheet for icon feature from cloudfalre for menu buttons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+ <title>NYCrimeData.com </title> <!-- the title of the website -->
+ 
+ <link rel="shortcut icon" type="image/png" href="image/favicon-1.ico"> <!-- the favicon/logo for the website -->
+<style>
+
+/* The desing for scrolling bar*/
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling/scroll bar */
+}
+
+/* This is the fonts family/group */
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* design for navigator bar*/
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* design for navigator bar - everything in the a tag*/
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* design for navigator bar - when user move the cursor over the button*/
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* design for navigator bar - when user clicks on the button*/
+.active {
+  background-color: #04AA6D;
+}
+
+/* the minimum size for the navigator bar and design*/
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+<!--Sign Up Form-->
+/*Sign up form font family/group*/
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+/* when cursor move on the button, opcaity=transparency-level*/
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: inline; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100% /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 30px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+/* Deisng when curse move over the button */
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+<!--Sign Up Form-->
+
+/* the design for footer */
+footer {
+    padding: 10px 20px;
+    background: #666;
+    color: white;
+    }
+    
+/* the design for a tag */        
+a {
+    color: #00aaff;
+    }
+ 
+/* container design, make some empty spaces around the container group*/  
+#container {
+   min-height:100%;
+   position:relative;
+   margin: 5, 5, 5, 5;
+   padding: 5,5,5,5;
+}
+
+/* the design for footer group*/
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:100px;   /* Height of the footer */
+   background:#555;
+}
+
+/* this class make the display on the same line */
+.sameline{
+       display:inline-block;
+
+   }
+   
+/* this class make small margin around the area */   
+.space{
+    margin:0.25rem 0.25rem 0.25rem 0.25rem;
+}   
+   
+
+</style>
+</head>
+<body>
+    
+<!--This is navigator bar area start-->
+<div class="navbar">
+  <div class="space"> <a class="active" href="./"><i class="fa fa-fw fa-home"></i> Home</a> </div>
+  <div class="space"><a href="mailto: support@nycrimedata.com" target="_blank"><i class="fa fa-fw fa-envelope"></i> Contact</a>  </div>
+  <div class="space"><a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+  <a class="active" href="Sign_Up.html"><i class="fas fa-sync fa-spin"></i> Sign Up</a> </div>
+</div>
+<!--This is navigator bar area end-->
+
+<div>
+    
+<!-- website tab name -->
+<h1 id="home">NYCrimeSpot</h1>
+
+<!-- website welcome message -->
+<p>Welcome to Our Website</p>
+
+<!-- website homepage picture -->
+<img src="homepage.jpeg" alt="homepage" width="460" height="345">
+<br>
+</div>
+
+
+<!--This is search bar area start-->
+    <form method="GET" action="search.php" >
+    <input type="text" name="search" placeholder="Search Street/Zip Code/City/County">
+    <!-- filter options start-->
+    <select name="column">
+        <option value=" ">Select Filter</option>
+        <option value="Street">Street</option>
+        <option value="Zip Code">Postcode</option>
+        <option value="City">City</option>
+        <option value="County">County</option>
+    </select>
+    <!-- filter options end-->
+    <input type="submit" name="submit" value="find">
+    
+</form>
+<!--This is search bar area end-->
+
+
+<div>
+<h2 id="about Us">About Us</h2> <!-- We link About us button to our current about us page -->
+
+<!-- about us description start-->
+<p>Data plays an important aspect for any business, project or just to have information available for anyone who may benefit from it. Living in a populated city we have deemed a crime database/system to be good to have information for New Yorkers, tourists, researchers, anyone who is looking to move within New York boroughs, visitors looking to explore NY and/or Property Investors.
+
+
+<p>
+The team is looking to create a system that will provide users with information that they may be looking for before visiting different boroughs and/or investing on properties. As a team, we are looking to serve as the bridge between data on crime rates and NYC Boroughs.
+</p>
+
+<p>
+Team members:
+
+Amanda Ma; Andrew Kwasnik; Chunmiao Chen; Laura Pacas; Leandro Coimbra; Louise Jiang; Nidhi Sharma; Xinru Wang; Yanzhi Fan
+</p>
+
+<!-- about us description end-->
+
+<!-- team GitHub -->
+<h3><a href="https://github.com/NYCrimeData/NYCrimeData" target="_blank">Our Team GitHub</a></h3>
+
+<br>
+
+<h2 id="contact us">Contact Us</h2> <!-- We link Contact us button to our current about us page -->
+<p>Our team can be reached out by the following contact methods <br>
+
+Github username: NYCrimeData <br>
+Tech support: <a href="mailto: support@nycrimedata.com" target="_blank">support@nycrimedata.com</a>
+</p>
+</div>
+
+
+
+<br><br><br><br><br><br><br><br><br> <!-- provide some spaces -->
+
+
+</body>
+</html>
+
+    
